@@ -21,8 +21,10 @@ function Page() {
 
       <LiveProvider code={'<h1>Hello, World!</h1>'}>
         <LiveEditor />
+        {/*
         <LivePreview />
         <LiveError />
+        */}
       </LiveProvider>
     </>
   )
